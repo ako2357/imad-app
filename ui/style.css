@@ -1,2 +1,2 @@
-article,aside,footer,header,main,nav,section{
-display:block;}
+body{
+display:block;padding:5px;margin:5px;}
