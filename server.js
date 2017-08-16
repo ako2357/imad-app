@@ -19,13 +19,18 @@ app.get('/article-two', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'article-two.html'));
 });
 app.get('/ui/style.css', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'style.css'));
+  res.sendFile(path.join(__dirname, 'ui', 'mystyle.css'));
 });
 
 app.get('/ui/myphoto.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'myphoto.jpg'));
 });
-
+app.get('/ui/math2.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'math2.jpg'));
+});
+app.get('/ui/cat.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'cat.jpg'));
+});
 
 // Do not change port, otherwise your app won't run on IMAD servers
 // Use 8080 only for local development if you already have apache running on 80
