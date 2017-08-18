@@ -18,17 +18,17 @@ app.get('/article-one', function (req, res) {
 app.get('/article-two', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'article-two.html'));
 });
-app.get('/ui/mystyle.css', function (req, res) {
+app.get('/mystyle.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'mystyle.css'));
 });
 
-app.get('/ui/myphoto.jpg', function (req, res) {
+app.get('/myphoto.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'myphoto.jpg'));
 });
-app.get('/ui/math2.jpg', function (req, res) {
+app.get('/math2.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'math2.jpg'));
 });
-app.get('/ui/cat.jpg', function (req, res) {
+app.get('/cat.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'cat.jpg'));
 });
 
