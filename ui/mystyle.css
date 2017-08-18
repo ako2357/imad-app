@@ -11,7 +11,7 @@ width:80%;
 margin:auto;padding-top:-4px;
 padding-bottom: 20px;
 }
-
+/*GLOBAL ENDS*/
 header{
   background-color:rgb(200,200,204);
   color:#ffffff;
@@ -26,7 +26,7 @@ header img{
   float:right;margin:0;height:90px;
 }
 
-/*shoecase*/
+/*showcase*/
 #showcase{
   min-height:400px;
   text-align: center;
